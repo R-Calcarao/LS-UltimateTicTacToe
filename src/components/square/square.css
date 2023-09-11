@@ -1,0 +1,70 @@
+.square {
+  background: #ffffff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  float: left;
+  margin: 0.5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
+
+.active-squareX,
+.active-squareO {
+  background: rgb(207, 235, 207);
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  float: left;
+  margin: 0.5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
+.active-squareX:hover {
+  background: rgb(245, 141, 141);
+}
+.active-squareO:hover {
+  background: rgb(120, 108, 245);
+}
+.winner-square.X {
+  background: rgb(245, 141, 141);
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  float: left;
+  margin: 0.5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
+
+.winner-square.O {
+  background: rgb(120, 108, 245);
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  float: left;
+  margin: 0.5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
+
+.winner-square.E {
+  background: rgb(179, 179, 180);
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  float: left;
+  margin: 0.5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}

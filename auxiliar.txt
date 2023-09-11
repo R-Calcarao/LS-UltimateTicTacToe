@@ -1,0 +1,18 @@
+if (level === "1") {
+      let newBoards = [...boards];
+      let nextPlayBoard = [...newBoards[squareIndex]];
+      if (
+        (!xIsNext && player2Symbol === "X") ||
+        (xIsNext && player2Symbol === "O")
+      ) {
+        const index = setNextPlay(nextPlayBoard);
+        if (index) {
+          nextPlayBoard[index] = player2Symbol;
+          newBoards[squareIndex] = nextPlayBoard;
+          setNextBoard(index);
+          boardIndex = squareIndex;
+          setBoards(newBoards);
+          setXIsNext(!xIsNext);
+        }
+      }
+    }

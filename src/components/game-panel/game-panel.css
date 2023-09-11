@@ -1,0 +1,80 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para game-panel.componente.jsx 
+**********************************************/
+
+.jogo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 10px 0;
+  padding: 15px 20px 10px 20px;
+  background-color: #fff;
+  color: grey;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  width: 430px;
+  border-radius: 10px;
+}
+
+.jogo.hide {
+  display: none;
+}
+
+.pre-jogo-info {
+  width: 100%;
+}
+
+.game-panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: fit-content;
+  grid-gap: 10px;
+}
+
+#timer {
+  background-color: #fff;
+  color: grey;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#t-active {
+  background-color: rgb(255, 255, 154);
+  color: grey;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-nomes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+#j1,
+#j2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.cor-X {
+  color: red;
+  font-weight: bold;
+}
+
+.cor-O {
+  color: blue;
+  font-weight: bold;
+}
